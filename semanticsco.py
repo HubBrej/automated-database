@@ -32,18 +32,21 @@ def rec(id, i, l, dbcon):
         authors = jso['authors']
         topics = jso['topics']
 
+        isDOI=True
         if doi is None:
             doi = "None"
+            doi=title
+            isDOI=False
 
         dbcon.create_publi(title, doi, year)
         if len(authors) > 0:
             for j in authors:
                 createAuth(j, dbcon)
-                dbcon.link_auth_publi(j['name'], doi, isDOI=True)
+                dbcon.link_auth_publi(j['name'], doi, isDOI=isDOI)
 
         for j in topics:
             dbcon.create_topic(j['topic'])
-            dbcon.link_top_publi(j['topic'], doi, isDOI=True)
+            dbcon.link_top_publi(j['topic'], doi, isDOI=isDOI)
         if i > 0:
             for j in citations:
                 newID = j['paperId']
@@ -52,10 +55,10 @@ def rec(id, i, l, dbcon):
                 else:
                     l = rec(newID, i, l, dbcon)
                     if j['doi'] is not None:
-                        dbcon.link_ref(j['doi'], doi, isDOI1=True, isDOI2=True)
+                        dbcon.link_ref(j['doi'], doi, isDOI1=True, isDOI2=isDOI)
                     else:
                         dbcon.link_ref(j['title'], doi,
-                                       isDOI1=False, isDOI2=True)
+                                       isDOI1=False, isDOI2=isDOI)
 
             for j in references:
                 newID = j['paperId']
@@ -65,10 +68,10 @@ def rec(id, i, l, dbcon):
                     l = rec(newID, i, l, dbcon)
                     if j['doi'] is not None:
                         dbcon.link_ref(
-                            j['doi'], doi, isDOI1=True, isDOI2=True)
+                            j['doi'], doi, isDOI1=True, isDOI2=isDOI)
                     else:
                         dbcon.link_ref(j['title'], doi,
-                                       isDOI1=False, isDOI2=True)
+                                       isDOI1=False, isDOI2=isDOI)
     return l
 
 
