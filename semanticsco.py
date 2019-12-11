@@ -7,12 +7,22 @@ from doibib import *
 from dbcon import Dbcon
 import load_dataset
 
+#important topics
+# MATCH ()-[r]->(n:Topic) WITH n,count(r) as rel_cnt WHERE rel_cnt > 5 RETURN n, rel_cnt ORDER BY rel_cnt desc;
+
 
 dbcon = Dbcon('bolt://localhost:7687', 'neo4j', 'password')
 
 paperID = "a460c6918ad608a7979b861a04cc42810d449d8e"
+
 # 1975. Nicholas J. Patterson. "The algebraic decoding of Goppa codes."
 paperID2 = "c06d89f81c68209ba42430c894354561918b9ffd"
+
+# Coding-Based Oblivious Transfer
+paperID3 = "ae6501f58c32817f11b7598c0547714fba6d8a72"
+
+
+paperID4 = "9ce5eaab06878f434c2efa55959a1212f382ec57"
 
 l = []
 
@@ -32,13 +42,13 @@ def rec(id, i, l, dbcon):
         authors = jso['authors']
         topics = jso['topics']
 
-        isDOI=True
+        isDOI = True
         if doi is None:
             doi = "None"
-            doi=title
-            isDOI=False
+            doi = title
+            isDOI = False
 
-        dbcon.create_publi(title, doi, year)
+        dbcon.create_publi(title, doi, str(year))
         if len(authors) > 0:
             for j in authors:
                 createAuth(j, dbcon)
@@ -51,19 +61,7 @@ def rec(id, i, l, dbcon):
             for j in citations:
                 newID = j['paperId']
                 if newID in l:
-                    return l
-                else:
-                    l = rec(newID, i, l, dbcon)
-                    if j['doi'] is not None:
-                        dbcon.link_ref(j['doi'], doi, isDOI1=True, isDOI2=isDOI)
-                    else:
-                        dbcon.link_ref(j['title'], doi,
-                                       isDOI1=False, isDOI2=isDOI)
-
-            for j in references:
-                newID = j['paperId']
-                if newID in l:
-                    return l
+                    continue
                 else:
                     l = rec(newID, i, l, dbcon)
                     if j['doi'] is not None:
@@ -72,6 +70,19 @@ def rec(id, i, l, dbcon):
                     else:
                         dbcon.link_ref(j['title'], doi,
                                        isDOI1=False, isDOI2=isDOI)
+
+            for j in references:
+                newID = j['paperId']
+                if newID in l:
+                    continue
+                else:
+                    l = rec(newID, i, l, dbcon)
+                    if j['doi'] is not None:
+                        dbcon.link_ref(
+                           doi, j['doi'], isDOI1=isDOI, isDOI2=True)
+                    else:
+                        dbcon.link_ref(doi, j['title'],
+                                       isDOI1=isDOI, isDOI2=False)
     return l
 
 
@@ -87,10 +98,22 @@ def createAuth(auth, dbcon):
             dbcon.create_author(i)
             dbcon.link_aliases(jso['name'], i)
 
-
-DOIS = load_dataset.get_dois()
-for i in DOIS:
-    l = rec(i, 2, l, dbcon)
-    print(len(l))
+#print("dois")
+#DOIS = load_dataset.get_dois()
+#for i in DOIS:
+#    l = rec(i, 2, l, dbcon)
+#    print(len(l))
+print("pp1")
+l = rec(paperID, 4, l, dbcon)
+print(len(l))
+print("pp2")
+l = rec(paperID2, 4, l, dbcon)
+print(len(l))
+print("pp3")
+l = rec(paperID3, 4, l, dbcon)
+print(len(l))
+print("pp4")
+l = rec(paperID4, 4, l, dbcon)
+print(len(l))
 
 dbcon.close()
