@@ -13,6 +13,7 @@ import load_dataset
 
 dbcon = Dbcon('bolt://localhost:7687', 'neo4j', 'password')
 
+# List Decoding for Binary Goppa Code
 paperID = "a460c6918ad608a7979b861a04cc42810d449d8e"
 
 # 1975. Nicholas J. Patterson. "The algebraic decoding of Goppa codes."
@@ -28,7 +29,7 @@ l = []
 
 
 def rec(id, i, l, dbcon):
-    l.append(id)
+    #l.append(id)
     i -= 1
     r = requests.get("http://api.semanticscholar.org/v1/paper/"+str(id))
     if r.status_code == 200:
@@ -98,22 +99,42 @@ def createAuth(auth, dbcon):
             dbcon.create_author(i)
             dbcon.link_aliases(jso['name'], i)
 
-#print("dois")
-#DOIS = load_dataset.get_dois()
+print("get data")
+DOIS,TITLES = load_dataset.get_data()
 #for i in DOIS:
-#    l = rec(i, 2, l, dbcon)
-#    print(len(l))
-print("pp1")
-l = rec(paperID, 4, l, dbcon)
-print(len(l))
-print("pp2")
-l = rec(paperID2, 4, l, dbcon)
-print(len(l))
-print("pp3")
-l = rec(paperID3, 4, l, dbcon)
-print(len(l))
-print("pp4")
-l = rec(paperID4, 4, l, dbcon)
-print(len(l))
+#   rec(i, 2, l, dbcon)
+
+body={
+    "queryString": "A public-key cryptosystem based on algebraic coding theory",
+    "page": 1,
+    "pageSize": 1,
+    "sort": "relevance",
+    "authors": [],
+    "coAuthors": [],
+    "venues": [],
+    "yearFilter": None,
+    "requireViewablePdf": False,
+    "publicationTypes": [],
+    "externalContentTypes": []
+}
+
+print('query data')
+for i in TITLES:
+    r = requests.post("https://www.semanticscholar.org/api/1/search", json=body)
+    jso=json.loads(r.text)
+    rec(jso['results'][0]['id'], 2, l, dbcon)
+
+# print("pp1")
+# l = rec(paperID, 4, l, dbcon)
+# print(len(l))
+# print("pp2")
+# l = rec(paperID2, 4, l, dbcon)
+# print(len(l))
+# print("pp3")
+# l = rec(paperID3, 4, l, dbcon)
+# print(len(l))
+# print("pp4")
+# l = rec(paperID4, 4, l, dbcon)
+# print(len(l))
 
 dbcon.close()
