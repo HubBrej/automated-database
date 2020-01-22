@@ -11,7 +11,7 @@ import load_dataset
 # MATCH ()-[r]->(n:Topic) WITH n,count(r) as rel_cnt WHERE rel_cnt > 5 RETURN n, rel_cnt ORDER BY rel_cnt desc;
 
 
-dbcon = Dbcon('bolt://localhost:7687', 'neo4j', 'password')
+dbcon = Dbcon('bolt://3.82.14.45:7687', 'neo4j', 'password')
 
 # List Decoding for Binary Goppa Code
 paperID = "a460c6918ad608a7979b861a04cc42810d449d8e"
@@ -100,7 +100,7 @@ def createAuth(auth, dbcon):
             dbcon.link_aliases(jso['name'], i)
 
 print("get data")
-DOIS,TITLES = load_dataset.get_data()
+#DOIS,TITLES = load_dataset.get_data()
 #for i in DOIS:
 #   rec(i, 2, l, dbcon)
 
@@ -118,14 +118,14 @@ body={
     "externalContentTypes": []
 }
 
-print('query data')
-for i in TITLES:
-    r = requests.post("https://www.semanticscholar.org/api/1/search", json=body)
-    jso=json.loads(r.text)
-    rec(jso['results'][0]['id'], 2, l, dbcon)
+#print('query data')
+#for i in TITLES:
+#    r = requests.post("https://www.semanticscholar.org/api/1/search", json=body)
+#    jso=json.loads(r.text)
+#    rec(jso['results'][0]['id'], 2, l, dbcon)
 
 # print("pp1")
-# l = rec(paperID, 4, l, dbcon)
+l = rec('36fc855f2cd38119ed24119543dddbfd478551e1', 2, l, dbcon)
 # print(len(l))
 # print("pp2")
 # l = rec(paperID2, 4, l, dbcon)

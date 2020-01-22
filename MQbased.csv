@@ -1,0 +1,191 @@
+﻿n,count(*)
+{name:Public-key cryptography},21
+{name:Cryptosystem},16
+{name:Digital signature},15
+{name:Cryptanalysis},13
+{name:Polynomial},13
+{name:Human factors and ergonomics},12
+{name:Linear algebra},12
+{name:Algorithm},12
+{name:Time complexity},9
+{name:Gröbner basis},8
+{name:Quadratic equation},7
+{name:Authentication},7
+{name:Algebraic equation},6
+{name:Key (cryptography)},6
+{name:Forge},6
+{name:Encryption},5
+{name:Sparse matrix},5
+{name:Cryptography},5
+{name:Eurocrypt},5
+{name:System of polynomial equations},5
+{name:Experiment},5
+{name:PKC (conference)},5
+{name:Smart card},5
+{name:NESSIE},5
+{name:Computation},5
+{name:Differential cryptanalysis},4
+{name:NetWare File System},4
+{name:Unbalanced Oil and Vinegar},4
+{name:Antivirus software},4
+{name:Type signature},3
+{name:Monomial},3
+{name:Brute-force search},3
+{name:Trapdoor function},3
+{name:Requirement},3
+{name:NP-hardness},3
+{name:Polynomial ring},3
+{name:Procedural generation},3
+{name:Whole Earth 'Lectronic Link},3
+{name:Cryptographic hash function},2
+{name:Key escrow},2
+{name:Nonlinear system},2
+{name:Cubic function},2
+{name:One-way function},2
+{name:Stream cipher},2
+{name:Computer simulation},2
+{name:Block cipher},2
+{name:S-box},2
+{name:Fastest},2
+{name:Ciphertext},2
+{name:Equation solving},2
+{name:Central processing unit},2
+{name:Polynomial-time reduction},2
+{name:Multivariate cryptography},2
+{name:Turing completeness},2
+{name:Public key infrastructure},2
+{name:Decision problem},2
+{name:Magma},2
+{name:Gate equivalent},2
+{name:Embedded system},2
+{name:Tame},2
+{name:Computer},2
+{name:Intel MCS-51},2
+{name:Coprocessor},2
+{name:Linear equation},2
+{name:Plaintext},2
+{name:Unbalanced circuit},2
+{name:Map},2
+{name:Quartz (graphics layer)},2
+{name:Cryptology ePrint Archive},1
+{name:Graph coloring},1
+{name:Belief revision},1
+{name:Hash-based message authentication code},1
+{name:Coding theory},1
+{name:Pseudorandomness},1
+{name:Linear code},1
+{name:Semiconductor industry},1
+{name:With high probability},1
+{name:Performance},1
+{name:Universality probability},1
+{name:International Conference on Services Computing},1
+{name:Konami SCC},1
+{name:One-way compression function},1
+{name:Symmetric-key algorithm},1
+{name:Open research},1
+{name:Collision attack},1
+{name:Randomness},1
+{name:Provable security},1
+{name:Springer (tank)},1
+{name:Distributed hash table},1
+{name:Clock rate},1
+{name:Diplexer},1
+{name:LILI-128},1
+{name:Bluetooth},1
+{name:Decimation (signal processing)},1
+{name:Recursion},1
+{name:Berlekamp–Massey algorithm},1
+{name:State (computer science)},1
+{name:Eisenstein's criterion},1
+{name:Stateful firewall},1
+{name:Linear-feedback shift register},1
+{name:Stateless protocol},1
+{name:Grammatical Framework},1
+{name:Correlation attack},1
+{name:Approximation},1
+{name:CRYPTREC},1
+{name:128-bit},1
+{name:XSL attack},1
+{name:PSG2 Serpent},1
+{name:Polynomial hierarchy},1
+{name:Traitor tracing},1
+{name:Gilbert cell},1
+{name:Numerical analysis},1
+{name:Graph isomorphism},1
+{name:Computer algebra system},1
+{name:Graph isomorphism problem},1
+{name:Multiplication algorithm},1
+{name:Arthur–Merlin protocol},1
+{name:Deep linking},1
+{name:HTTP 404},1
+{name:NP-completeness},1
+{name:The Matrix},1
+{name:Matrix representation},1
+{name:Linear system},1
+{name:Faugère's F4 and F5 algorithms},1
+{name:Bell test experiments},1
+{name:Gaussian elimination},1
+{name:CMOS},1
+{name:Clock signal},1
+{name:Radio-frequency identification},1
+{name:Key size},1
+{name:Circulant matrix},1
+{name:Quantum computing},1
+{name:Application-specific integrated circuit},1
+{name:Radio frequency},1
+{name:Electronic signature},1
+{name:8-bit},1
+{name:DIN connector},1
+{name:Computational resource},1
+{name:Internet Information Services},1
+{name:Electrical engineering},1
+{name:Institute for Operations Research and the Management Sciences},1
+{name:Overhead (computing)},1
+{name:Bellman equation},1
+{name:RSA Conference},1
+{name:YANG},1
+{name:Holographic principle},1
+{name:Schmidt decomposition},1
+{name:Layer (electronics)},1
+{name:CCIR System A},1
+{name:Linear approximation},1
+{name:Coefficient},1
+{name:Key space (cryptography)},1
+{name:Unbalanced line},1
+{name:Sed},1
+{name:Key generation},1
+{name:Celerity Computing},1
+{name:Keygen},1
+{name:Login},1
+{name:Input/output},1
+{name:Software deployment},1
+{name:The Third Manifesto},1
+{name:Degeneracy (graph theory)},1
+{name:Trusted Platform Module},1
+{name:Data security},1
+{name:Linux},1
+{name:KeY},1
+{name:Random-access memory},1
+{name:Buncefield fire},1
+{name:Low-rank approximation},1
+{name:Flavoring},1
+{name:Key-recovery attack},1
+{name:ECRYPT},1
+{name:Scheme},1
+{name:Ambiguous name resolution},1
+{name:Paroxysmal kinesigenic choreoathetosis},1
+{name:Mathematical structure},1
+{name:Consortium},1
+{name:Design rationale},1
+{name:Rendering (computer graphics)},1
+{name:Modular exponentiation},1
+{name:Discrete logarithm},1
+{name:Key exchange},1
+{name:Cobham's thesis},1
+{name:Quantum cryptography},1
+{name:E-commerce},1
+{name:Invariant (computer science)},1
+{name:McEliece cryptosystem},1
+{name:Asiacrypt},1
+{name:Stochastic process},1
+{name:JEAN},1

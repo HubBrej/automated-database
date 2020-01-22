@@ -1,0 +1,428 @@
+﻿n,count(*)
+{name:Public-key cryptography},79
+{name:McEliece cryptosystem},59
+{name:Algorithm},45
+{name:Code},37
+{name:Cryptosystem},29
+{name:Decoding methods},29
+{name:Digital signature},29
+{name:Cryptanalysis},27
+{name:Forward error correction},27
+{name:Coding theory},26
+{name:Key size},23
+{name:Encryption},23
+{name:Error detection and correction},23
+{name:Time complexity},21
+{name:Cryptography},18
+{name:Linear code},15
+{name:Polynomial},14
+{name:Antivirus software},13
+{name:Code word},12
+{name:Binary Goppa code},12
+{name:Computation},12
+{name:NP-completeness},11
+{name:Identification scheme},11
+{name:Linear algebra},11
+{name:Goppa code},10
+{name:PKC (conference)},10
+{name:Post-quantum cryptography},10
+{name:Quantum computing},10
+{name:Binary code},9
+{name:Random oracle},9
+{name:Key (cryptography)},8
+{name:Code (cryptography)},8
+{name:Dyadic transformation},8
+{name:QR code},8
+{name:Discrete logarithm},8
+{name:Front-side bus},8
+{name:Hash function},8
+{name:Provable security},7
+{name:BCH code},7
+{name:Ciphertext},7
+{name:Integer factorization},7
+{name:Type signature},7
+{name:Cryptographic hash function},7
+{name:List decoding},6
+{name:Randomized algorithm},6
+{name:Filesystem-level encryption},6
+{name:Reed–Solomon error correction},6
+{name:Side-channel attack},6
+{name:Computer},6
+{name:Computational complexity theory},6
+{name:Authentication},6
+{name:Electronic signature},6
+{name:GUID Partition Table},6
+{name:Window function},5
+{name:Embedded system},5
+{name:Cipher},5
+{name:Brute-force search},5
+{name:HL7PublishingSubSection <operations>},5
+{name:Parity-check matrix},5
+{name:Phil Bernstein},5
+{name:The Matrix},5
+{name:Quantum cryptography},5
+{name:Quantum dot},5
+{name:Climate Forecast System},5
+{name:Low-density parity-check code},5
+{name:Generator matrix},5
+{name:One-way compression function},5
+{name:Precomputation},4
+{name:Stream cipher},4
+{name:Randomness},4
+{name:Reed–Muller code},4
+{name:Plaintext},4
+{name:RSA (cryptosystem)},4
+{name:Parity bit},4
+{name:Analysis of algorithms},4
+{name:Smart card},4
+{name:Birthday attack},4
+{name:Marijuana Abuse},4
+{name:Folded Reed–Solomon code},4
+{name:NTRU},4
+{name:Zero-knowledge proof},4
+{name:Digital signature forgery},4
+{name:Ring signature},4
+{name:Central processing unit},3
+{name:Hamming weight},3
+{name:Experiment},3
+{name:Hamming code},3
+{name:Secret sharing},3
+{name:Matrix multiplication},3
+{name:Pseudorandomness},3
+{name:Eurocrypt},3
+{name:Countermeasure (computer)},3
+{name:Field-programmable gate array},3
+{name:Irreducibility},3
+{name:ECC memory},3
+{name:Quantum algorithm},3
+{name:Requirement},3
+{name:Chronic Fatigue Syndrome},3
+{name:Sampling (signal processing)},3
+{name:Graph automorphism},3
+{name:Degree (graph theory)},3
+{name:Cyclic code},3
+{name:Circulant matrix},3
+{name:Computational hardness assumption},3
+{name:Arabic numeral 0},3
+{name:Whole Earth 'Lectronic Link},3
+{name:Blind signature},3
+{name:Information privacy},3
+{name:SHA-3},3
+{name:Oblivious transfer},3
+{name:Generic Drugs},2
+{name:Iterative method},2
+{name:Preprocessor},2
+{name:Lecture Notes in Computer Science},2
+{name:Hamming distance},2
+{name:Correlation attack},2
+{name:RSA numbers},2
+{name:Byte},2
+{name:NAM},2
+{name:Mathematical optimization},2
+{name:Minimum weight},2
+{name:Nonlinear system},2
+{name:Column (database)},2
+{name:Chosen-ciphertext attack},2
+{name:Semantic security},2
+{name:Adaptive chosen-ciphertext attack},2
+{name:Turing completeness},2
+{name:Extended Euclidean algorithm},2
+{name:Root-finding algorithm},2
+{name:Linear equation},2
+{name:Online locator service},2
+{name:Homomorphic encryption},2
+{name:Iteration},2
+{name:NP-hardness},2
+{name:Relevance},2
+{name:Coefficient},2
+{name:Polynomial ring},2
+{name:Brute-force attack},2
+{name:Atmel AVR},2
+{name:8-bit},2
+{name:Microprocessor},2
+{name:Key generation},2
+{name:Shor's algorithm},2
+{name:Scalability},2
+{name:Variable-length code},2
+{name:Grover's algorithm},2
+{name:Speedup},2
+{name:CPU cache},2
+{name:Subset sum problem},2
+{name:Concatenation},2
+{name:Concatenated error correction code},2
+{name:Transformation matrix},2
+{name:Flaw hypothesis methodology},2
+{name:With high probability},2
+{name:Correctness (computer science)},2
+{name:Personal computer},2
+{name:Universal instantiation},2
+{name:Scrambler},2
+{name:Protocols documentation},2
+{name:Physiological Sexual Disorders},2
+{name:Dual},2
+{name:Computation (action)},2
+{name:Strong authentication},2
+{name:One-way function},2
+{name:Communication complexity},2
+{name:Elliptic curve cryptography},2
+{name:Generalization (Psychology)},2
+{name:Collision resistance},2
+{name:ECRYPT},2
+{name:Collision attack},2
+{name:Information security},2
+{name:Twisted},2
+{name:Choose (action)},2
+{name:Email},2
+{name:Effective complexity},1
+{name:Cambridge Structural Database},1
+{name:Quantum},1
+{name:Power of two},1
+{name:IEEE Transactions on Information Theory},1
+{name:Asiacrypt},1
+{name:Springer (tank)},1
+{name:Motorola 88000},1
+{name:Box–Muller transform},1
+{name:Gradient},1
+{name:Lithium},1
+{name:Line code},1
+{name:Complexity},1
+{name:Syndrome},1
+{name:Population Parameter},1
+{name:Li-Chen Wang},1
+{name:Compiler},1
+{name:Access structure},1
+{name:Dual code},1
+{name:Pipeline (computing)},1
+{name:Parallel computing},1
+{name:Paging},1
+{name:Deterministic algorithm},1
+{name:Binary logarithm},1
+{name:Ciphertext indistinguishability},1
+{name:Eve},1
+{name:Mihir Bellare},1
+{name:Retransmission (data networks)},1
+{name:Algebraic Riccati equation},1
+{name:Cubic function},1
+{name:Refinement (computing)},1
+{name:Differential fault analysis},1
+{name:Padding oracle attack},1
+{name:Secure cryptoprocessor},1
+{name:Information leakage},1
+{name:Spectral leakage},1
+{name:Overhead (computing)},1
+{name:Modulo operation},1
+{name:Methods of computing square roots},1
+{name:Encoder},1
+{name:Physical security},1
+{name:Pervasive informatics},1
+{name:General-purpose markup language},1
+{name:FITS},1
+{name:Dummy variable (statistics)},1
+{name:Timer},1
+{name:Vulnerability (computing)},1
+{name:L (complexity)},1
+{name:P (complexity)},1
+{name:Critical system},1
+{name:Johnson bound},1
+{name:Alternant code},1
+{name:Grammar-based code},1
+{name:Digital Light Processing},1
+{name:Arbitrary-precision arithmetic},1
+{name:Public key infrastructure},1
+{name:Contactless smart card},1
+{name:Non-volatile memory},1
+{name:Random-access memory},1
+{name:Performance tuning},1
+{name:Usability},1
+{name:Microcontroller},1
+{name:Throughput},1
+{name:FLOPS},1
+{name:Information theory},1
+{name:Block code},1
+{name:Quantum information},1
+{name:128-bit},1
+"{name:Epilepsy, Generalized}",1
+{name:Microsoft Outlook for Mac},1
+{name:Small},1
+{name:Gaucher Disease},1
+{name:Hidden subgroup problem},1
+{name:Graph isomorphism},1
+{name:Kempe chain},1
+{name:Cryptogram},1
+{name:Graham scan},1
+{name:Learning with errors},1
+{name:Local Interconnect Network},1
+{name:Lookup table},1
+{name:Codec},1
+{name:Discriminant},1
+{name:Vanish (computer science)},1
+{name:Key space (cryptography)},1
+{name:Enumerated type},1
+{name:Dual wavelet},1
+{name:Enumerator polynomial},1
+{name:Polynomial code},1
+{name:Weak key},1
+{name:WeatherStar},1
+{name:Extrapolation},1
+{name:Belief propagation},1
+{name:Sparse matrix},1
+{name:Noisy-channel coding theorem},1
+{name:Quasi-identifier},1
+{name:Marginal model},1
+{name:Computer security},1
+{name:Cylinder-head-sector},1
+{name:Software propagation},1
+{name:Polynomial matrix},1
+{name:Megabyte},1
+{name:Key exchange},1
+{name:Megabit},1
+{name:Octet (computing)},1
+{name:Trapdoor function},1
+{name:Irreducible polynomial},1
+{name:Grammatical Framework},1
+{name:Emoticon},1
+{name:Algebraic equation},1
+{name:Key-recovery attack},1
+{name:DIN connector},1
+{name:Bilinear filtering},1
+{name:Radio-frequency identification},1
+{name:Related-key attack},1
+{name:Run-length encoding},1
+{name:Radioimmunoassay},1
+{name:Basal Ganglia Diseases},1
+{name:Disease Response Domain},1
+{name:Hardness of approximation},1
+{name:Cryptographic primitive},1
+{name:FO (complexity)},1
+{name:Bootstrapping (compilers)},1
+{name:Machine-readable dictionary},1
+{name:Entity–relationship model},1
+{name:Black box},1
+{name:Ident protocol},1
+{name:Cations},1
+{name:Quadratic residue},1
+{name:Subject matter expert Turing test},1
+{name:Rump kernel},1
+{name:ARID1A wt Allele},1
+{name:Sense of identity (observable entity)},1
+{name:Kernel (operating system)},1
+{name:Analog-to-digital converter},1
+{name:Symmetric-key algorithm},1
+{name:Data rate units},1
+{name:Mobile device},1
+{name:Edema Rating 2},1
+{name:Nyquist rate},1
+{name:Oracle RAC},1
+{name:Polynomial-time approximation scheme},1
+"{name:Sialic Acid Storage Disease, Finnish Type (disorder)}",1
+{name:exponential},1
+{name:Dimensions},1
+{name:Visual Intercept},1
+{name:Concrete security},1
+{name:Regular expression},1
+{name:Hoc (programming language)},1
+{name:Fault injection},1
+{name:Authentication protocol},1
+{name:Coprocessor},1
+{name:Performance},1
+{name:Identity creation},1
+{name:ID-based cryptography},1
+{name:Blinding (cryptography)},1
+{name:Lambda calculus},1
+{name:Alpha compositing},1
+{name:Maximal set},1
+{name:Trusted third party},1
+{name:Merkle tree},1
+{name:Forking lemma},1
+{name:Pseudo brand of pseudoephedrine},1
+{name:Random number generation},1
+{name:Radionuclide Generators},1
+{name:RC4},1
+{name:Schnorr group},1
+{name:Increment},1
+{name:Modulus of continuity},1
+{name:Hopper},1
+{name:Exclusive or},1
+{name:Blum axioms},1
+{name:Ethereum},1
+{name:Pei-Yuan Wei},1
+{name:Asymptote},1
+{name:Block cipher mode of operation},1
+{name:Pseudorandom generator},1
+{name:Quadratic equation},1
+{name:Michael J. Fischer},1
+{name:Compression},1
+{name:Average-case complexity},1
+"{name:Best, worst and average case}",1
+{name:Desktop computer},1
+{name:Extender Device Component},1
+{name:Specification},1
+{name:SHA-2},1
+{name:Lattice problem},1
+{name:SWIFFT},1
+{name:Lattice reduction},1
+{name:Parity learning},1
+{name:Nice (Unix)},1
+{name:Biometrics},1
+{name:Traitor tracing},1
+{name:Cryptographic protocol},1
+{name:Commitment scheme},1
+{name:Leftover hash lemma},1
+{name:Printing},1
+{name:Interaction},1
+{name:DSPACE},1
+{name:Genetic algorithm},1
+{name:Steganography},1
+{name:Group signature},1
+{name:Numerous},1
+{name:Computer cluster},1
+{name:Euler},1
+{name:Montgomery modular multiplication},1
+{name:Period-doubling bifurcation},1
+{name:Torsion (gastropod)},1
+{name:Fastest},1
+{name:NIST hash function competition},1
+{name:Rendering (computer graphics)},1
+{name:Lenstra elliptic curve factorization},1
+{name:Reconfigurable computing},1
+{name:Idempotence},1
+{name:Network security},1
+{name:Berlekamp–Massey algorithm},1
+{name:Berlekamp's algorithm},1
+{name:Factorization of polynomials over finite fields},1
+{name:Electronic funds transfer},1
+{name:Secure communication},1
+{name:PRIMER},1
+{name:Distortion},1
+{name:Linear system},1
+{name:Feasible region},1
+{name:Key escrow},1
+{name:One-to-one (data model)},1
+{name:Contain (action)},1
+{name:Assumed},1
+{name:Superscript},1
+{name:Low Back Pain},1
+{name:Genetic Heterogeneity},1
+{name:Hereditary Multiple Exostoses},1
+{name:Analog},1
+{name:Snuff Tobacco},1
+{name:Fifty Nine},1
+{name:Index},1
+{name:Ext JS JavaScript Framework},1
+{name:Utility functions on indivisible goods},1
+{name:Acclimatization},1
+{name:Random access},1
+{name:Basis (linear algebra)},1
+{name:Amino Acids},1
+{name:Burst error},1
+{name:Radio frequency},1
+{name:notation},1
+{name:Linear network coding},1
+{name:Row echelon form},1
+{name:Decoder Device Component},1
+{name:Diethylstilbestrol},1
+{name:Public-Private Sector Partnerships},1
+{name:Claw-free permutation},1
+{name:Forge},1
+{name:Verification and validation},1
+{name:Adversary (cryptography)},1
